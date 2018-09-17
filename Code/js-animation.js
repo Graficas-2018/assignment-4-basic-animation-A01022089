@@ -68,12 +68,12 @@ function playAnimations()
       interps:
           [
             {
-              keys:[0,  0.05, .25, 0.30,   0.5, 0.55,  0.75, 0.8,  0.95, 1],
+              keys:[0,  0.05, .25, 0.30,   0.5, 0.55,  0.75, 0.8, 0.96, 1],
 
                 //keys:[0.05, .30, .55, .80,  1],
                 values:[
                         { x : 20, y:0, z: 0 },
-                        { x : 20, y:0, z: 0 },
+                        { x : 19, y:0, z: 5 },
 
                         { x : 0, y:0, z: 20 },
                         { x : -3, y:0, z: 20 },
@@ -84,8 +84,9 @@ function playAnimations()
                         { x : 0, y:0, z: -20 },
                         { x : 3, y:0, z: -20 },
 
-                        { x : 18, y:0, z: -2 },
                         { x : 20, y:0, z: 0 },
+                        { x : 20, y:0, z: 0 },
+
 
                         ],
                 target:droneContainer.position
@@ -95,7 +96,6 @@ function playAnimations()
                   values:[
                           { y : -Math.PI * 0.5},
                           { y : -Math.PI },
-
 
                           { y : -Math.PI },
                           { y : -Math.PI * 1.5 },
